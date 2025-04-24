@@ -18,7 +18,7 @@ const Navbar = () => {
           <img src={asset2} />
         </div>
         <div className="navbar1">
-          <a href="/">Home</a>
+          <a href="/artloopCreation">Home</a>
           <Link to="/about">About Us <span className="arrow">▼</span></Link>
           <Link to="/service">Services <span className="arrow">▼</span></Link>
           <a href="/#portfolio">Portfolio <span className="arrow">▼</span></a>

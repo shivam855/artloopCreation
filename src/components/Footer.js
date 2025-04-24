@@ -28,7 +28,7 @@ function Footer() {
       <div className="footer-section">
         <h3>Menu</h3>
         <ul>
-          <li><p><Link to="/">Home</Link></p></li>
+          <li><p><Link to="/artloopCreation">Home</Link></p></li>
           <li><p><Link to="/about">About Us</Link></p></li>
           <li><p><Link to="/service">Services</Link></p></li>
           <li><p><button className="link-btn" onClick={() => scrollToSection('portfolio')}>Portfolio</button></p></li>
