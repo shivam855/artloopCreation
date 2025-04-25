@@ -41,7 +41,8 @@ export const ContactUs = () => {
       .then(
         () => {
           setStatus('Message sent successfully!');
-          setFormData({ name: '', email: '', message: '' });
+          setFormData({ name: '', email: '', projectName: '',
+            projectBudget: '', message: '' });
         },
         (error) => {
           setStatus('Failed to send message. Please try again.');
@@ -113,7 +114,7 @@ export const ContactUs = () => {
                   name="projectBudget"
                   value={formData.projectBudget}
                   onChange={handleChange}
-                  required
+                  // required
                 >
                   <option value="" disabled>Select a budget</option>
                   <option value="Less than $500">Less than $500</option>

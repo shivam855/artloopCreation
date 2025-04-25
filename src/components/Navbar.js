@@ -21,9 +21,9 @@ const Navbar = () => {
           <a href="/artloopCreation">Home</a>
           <Link to="/about">About Us <span className="arrow">▼</span></Link>
           <Link to="/service">Services <span className="arrow">▼</span></Link>
-          <a href="/#portfolio">Portfolio <span className="arrow">▼</span></a>
-          <a href="/#logo-container">Our Clients <span className="arrow">▼</span></a>
-          <a href="/#contact">Contact <span className="arrow">▼</span></a>
+          <a href="/artloopCreation#portfolio">Portfolio <span className="arrow">▼</span></a>
+          <a href="/artloopCreation#logo-container">Our Clients <span className="arrow">▼</span></a>
+          <a href="/artloopCreation#contact">Contact <span className="arrow">▼</span></a>
         </div>
         <div className="hamburger" onClick={toggleMobileMenu}>
           <span></span><span></span><span></span>
@@ -36,12 +36,12 @@ const Navbar = () => {
         </div>
         <div className={`mobile-nav ${isMobileMenuOpen ? 'open' : ''}`}>
           <div className="close-btn" onClick={toggleMobileMenu}>&times;</div>
-          <a href="index.html">Home</a>
+          <a href="/artloopCreation">Home</a>
           <Link to="/about">About Us </Link>
           <Link to="/service">Services </Link>
-          <a href="#portfolio">Portfolio</a>
-          <a href="#logo-container">Our Clients</a>
-          <a href="#contact">Contact</a>
+          <a href="/artloopCreation#portfolio">Portfolio</a>
+          <a href="/artloopCreation#logo-container">Our Clients</a>
+          <a href="/artloopCreation#contact">Contact</a>
         </div>
       </header>
 

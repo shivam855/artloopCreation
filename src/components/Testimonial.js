@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 
 // Sample testimonials data
 const testimonials = [
@@ -27,13 +27,10 @@ const testimonials = [
 function Testimonial() {
   const [current, setCurrent] = useState(0);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrent((prev) => (prev + 1) % testimonials.length);
-    }, 5000); // change every 5 seconds
-
-    return () => clearInterval(interval);
-  }, []);
+  // Handle dot click
+  const handleDotClick = (index) => {
+    setCurrent(index);
+  };
 
   return (
     <section className="testimonial-section">
@@ -45,7 +42,11 @@ function Testimonial() {
 
       <div className="testimonial-dots">
         {testimonials.map((_, index) => (
-          <span key={index} className={`dot ${current === index ? 'active' : ''}`}></span>
+          <span
+            key={index}
+            className={`dot ${current === index ? 'active' : ''}`}
+            onClick={() => handleDotClick(index)} // Add click handler
+          ></span>
         ))}
       </div>
     </section>

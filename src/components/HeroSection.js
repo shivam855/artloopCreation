@@ -12,26 +12,35 @@ function HeroSection() {
       <div className="half-image-left">
         <img src={image} alt="Left Half" />
       </div>
-      <div className="hero-image" style= {{height: '45rem'}}>
+      <div className="hero-image" style= {{height: '40rem'}}>
         <img src={photoroom} />
       </div>
       <div className="half-image-right">
         <img src={image} alt="Right Half" />
       </div>
       <div className="social-icons1">
-        <a href="https://wa.me" target="_blank" rel="noopener noreferrer">
-          <img src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp--v1.png" alt="WhatsApp" />
-        </a>
-        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-          <img src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new.png" alt="Instagram" />
-        </a>
-        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-          <img src="https://img.icons8.com/ios-filled/50/ffffff/facebook--v1.png" alt="Facebook" />
-        </a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-          <img src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png" alt="LinkedIn" />
-        </a>
-      </div>
+  <a href="https://api.whatsapp.com/send?phone=919355272853&text=Hi%20Artloop%20Creations!" target="_blank" rel="noopener noreferrer">
+    <div className="icon-box">
+      <i className="fab fa-whatsapp"></i>
+    </div>
+  </a>
+  <a href="https://www.instagram.com/artloop.creations?igsh=OWc2dDZvMXR5a2w0" target="_blank" rel="noopener noreferrer">
+    <div className="icon-box">
+      <i className="fab fa-instagram"></i>
+    </div>
+  </a>
+  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+    <div className="icon-box">
+      <i className="fab fa-facebook-f"></i>
+    </div>
+  </a>
+  <a href="https://www.linkedin.com/company/artloop-creations/" target="_blank" rel="noopener noreferrer">
+    <div className="icon-box">
+      <i className="fab fa-linkedin-in"></i>
+    </div>
+  </a>
+</div>
+
     </section>
   );
 }
