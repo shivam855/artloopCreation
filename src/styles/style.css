@@ -13,6 +13,15 @@ body {
   color: white;
 }
 
+.about-page, .services-page {
+  color: #000;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 1rem auto;
+  line-height: 1.8;
+}
+
+
 .navbar1 {
   display: flex;
   justify-content: center;
@@ -127,17 +136,18 @@ text-decoration: none;
   font-size: 4rem;
   font-weight: 900;
   color: #ffffff;
-  margin-top: 0;
+  margin-top: -1rem;
+  margin-bottom: -0.5rem;
 }
 
 
 .hero-image img {
   max-width: 50%;
   height: auto;
-  width: 35%;
+  width: 40%;
   display: block;
   margin: 0 auto;
-  transform: translateY(-18%);
+  transform: translateY(-16%);
 }
 .half-image-left,
 .half-image-right {
@@ -183,7 +193,7 @@ height: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 2rem 6rem 4rem;
+  padding: 2rem 12rem 4rem;
   background-color: #0e0e0e;
   color: #ffffff;
   font-family: 'Poppins', sans-serif;
@@ -371,7 +381,6 @@ height: auto;
   padding: 0px 40px 0px ;
   text-align: center;
 }
-
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -388,8 +397,10 @@ height: auto;
   justify-content: center;
   font-weight: bold;
   color: white;
+  width: 100%;
 }
 
+/* Aspect ratios for consistency */
 .ratio-1-1 {
   aspect-ratio: 1 / 1;
 }
@@ -398,7 +409,7 @@ height: auto;
 }
 .ratio-9-6 {
   aspect-ratio: 9 / 6;
-  transform: translate(0px, -14.5rem) !important;
+  /* Removed transform */
 }
 .ratio-6-9 {
   aspect-ratio: 6 / 9;
@@ -513,6 +524,11 @@ h2 {
   color: #3f3f7d;
 }
 
+.contact-section {
+  /* font-family: 'OliveraObl', cursive; */
+  color: #000;
+}
+
 .about-image {
   width: 100%;
   overflow: hidden;
@@ -554,7 +570,7 @@ h2 {
 .social-icons1 {
   position: absolute; /* or 'relative' depending on context */
   top: 55%;
-  right: 30rem;
+  right: 27.5rem;
   transform: translateY(-50%);
   display: flex;
   flex-direction: column;

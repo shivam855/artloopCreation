@@ -52,7 +52,7 @@ export const ContactUs = () => {
   };
   return (
     <section className="contact-section">
-      <div style={{ textAlign: 'left', maxWidth: '100%', margin: '30px 19%', padding: '1rem 1rem', gap: '2rem'}}>
+      <div style={{ textAlign: 'left', maxWidth: '100%', padding: '2rem 13rem', gap: '2rem'}}>
         <h2 style={{fontSize: '50px'}}>Let's Work Together</h2>
         <p style={{fontSize: '20px'}}>
           We'd love to hear from you. Whether you have a project in mind or just want to say.

@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutPage = () => {
   return (
-    <div className="about-page" style={{ padding: '2rem', maxWidth: '800px', margin: '0 auto', lineHeight: '1.8' }}>
+    <div className="about-page">
       <h2>Who We Are</h2>
       <p>
         Artloop Creations is a full-service creative agency built for bold brands and imaginative ideas.
