@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "/artloopCreation/static/css/main.799c9d8f.css",
-    "main.js": "/artloopCreation/static/js/main.c3e22392.js",
+    "main.css": "/artloopCreation/static/css/main.573c21c4.css",
+    "main.js": "/artloopCreation/static/js/main.414e58ec.js",
     "static/media/Element.png": "/artloopCreation/static/media/Element.d2f1b513e6b45d5cb556.png",
     "static/media/BG.jpg": "/artloopCreation/static/media/BG.ce68a83302b29c7fe9bd.jpg",
     "static/media/2150165633-Photoroom.png": "/artloopCreation/static/media/2150165633-Photoroom.00b17ecf7c0048e12421.png",
     "static/media/ElaineFinalLogo-03.png": "/artloopCreation/static/media/ElaineFinalLogo-03.b4f5095d15b0fcc83850.png",
+    "static/media/7731b5176821111.676e9f6ebbe41.jpg": "/artloopCreation/static/media/7731b5176821111.676e9f6ebbe41.a929602f3a548660d29a.jpg",
     "static/media/all-season-Photoroom.png": "/artloopCreation/static/media/all-season-Photoroom.75730064b6f1c0f276be.png",
     "static/media/Samriddhi-Logo-transparent.png": "/artloopCreation/static/media/Samriddhi-Logo-transparent.62229c6f88af2d57559f.png",
     "static/media/Capa 1-Photoroom.png": "/artloopCreation/static/media/Capa 1-Photoroom.eb59b4aad50f0029ff16.png",
+    "static/media/packaging_02.webp": "/artloopCreation/static/media/packaging_02.2cdc9e3fc3f09a25bb66.webp",
+    "static/media/packaging_05.webp": "/artloopCreation/static/media/packaging_05.70aaee139512c4352656.webp",
     "static/media/logo - vipra foundation  png_fkc4ekfps2hfir.png": "/artloopCreation/static/media/logo - vipra foundation  png_fkc4ekfps2hfir.1a8fb9564cb62ef0086a.png",
+    "static/media/packaging_01.webp": "/artloopCreation/static/media/packaging_01.1b1a17b8520e495e729e.webp",
     "static/media/Grahshanti-Logo-PDF-page-001.png": "/artloopCreation/static/media/Grahshanti-Logo-PDF-page-001.0b96101ea026a4c9d298.png",
     "static/media/1_0009_Layer-4 (1).png": "/artloopCreation/static/media/1_0009_Layer-4 (1).88e422b17eca6b40e52d.png",
     "static/media/riwayat-ngs-ghaziabad-sector-5-ghaziabad-y3ry7pk1pg-Photoroom.png": "/artloopCreation/static/media/riwayat-ngs-ghaziabad-sector-5-ghaziabad-y3ry7pk1pg-Photoroom.2f2f696e3453bce2b3d5.png",
+    "static/media/packaging_03.webp": "/artloopCreation/static/media/packaging_03.5ec1c4a58dfaf534749c.webp",
     "static/media/ishan-600.png": "/artloopCreation/static/media/ishan-600.d1204a1285b673f4ace1.png",
     "static/media/logo -1.png": "/artloopCreation/static/media/logo -1.ea8b8e4149dd7178a578.png",
     "static/media/OliveraObl.ttf": "/artloopCreation/static/media/OliveraObl.d89e26c734c0af27b8c3.ttf",
@@ -22,11 +27,11 @@
     "static/media/images-Photoroom.png": "/artloopCreation/static/media/images-Photoroom.777029e8b788cee48564.png",
     "static/media/logo (2).png": "/artloopCreation/static/media/logo (2).b7c983fa6523f866b1c5.png",
     "index.html": "/artloopCreation/index.html",
-    "main.799c9d8f.css.map": "/artloopCreation/static/css/main.799c9d8f.css.map",
-    "main.c3e22392.js.map": "/artloopCreation/static/js/main.c3e22392.js.map"
+    "main.573c21c4.css.map": "/artloopCreation/static/css/main.573c21c4.css.map",
+    "main.414e58ec.js.map": "/artloopCreation/static/js/main.414e58ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.799c9d8f.css",
-    "static/js/main.c3e22392.js"
+    "static/css/main.573c21c4.css",
+    "static/js/main.414e58ec.js"
   ]
 }
