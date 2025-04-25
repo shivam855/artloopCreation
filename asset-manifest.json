@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/artloopCreation/static/css/main.c841e5fb.css",
-    "main.js": "/artloopCreation/static/js/main.8ff3c624.js",
+    "main.css": "/artloopCreation/static/css/main.799c9d8f.css",
+    "main.js": "/artloopCreation/static/js/main.c3e22392.js",
     "static/media/Element.png": "/artloopCreation/static/media/Element.d2f1b513e6b45d5cb556.png",
     "static/media/BG.jpg": "/artloopCreation/static/media/BG.ce68a83302b29c7fe9bd.jpg",
     "static/media/2150165633-Photoroom.png": "/artloopCreation/static/media/2150165633-Photoroom.00b17ecf7c0048e12421.png",
@@ -15,17 +15,18 @@
     "static/media/riwayat-ngs-ghaziabad-sector-5-ghaziabad-y3ry7pk1pg-Photoroom.png": "/artloopCreation/static/media/riwayat-ngs-ghaziabad-sector-5-ghaziabad-y3ry7pk1pg-Photoroom.2f2f696e3453bce2b3d5.png",
     "static/media/ishan-600.png": "/artloopCreation/static/media/ishan-600.d1204a1285b673f4ace1.png",
     "static/media/logo -1.png": "/artloopCreation/static/media/logo -1.ea8b8e4149dd7178a578.png",
+    "static/media/OliveraObl.ttf": "/artloopCreation/static/media/OliveraObl.d89e26c734c0af27b8c3.ttf",
     "static/media/tgkf-franchise-logo-1.png": "/artloopCreation/static/media/tgkf-franchise-logo-1.6bb439ecedddece458ab.png",
     "static/media/logocng-Photoroom.png": "/artloopCreation/static/media/logocng-Photoroom.0ba9a1cde32c50a1f2a4.png",
     "static/media/YNOS316965-Photoroom.png": "/artloopCreation/static/media/YNOS316965-Photoroom.a2743d380fa7683f5d80.png",
     "static/media/images-Photoroom.png": "/artloopCreation/static/media/images-Photoroom.777029e8b788cee48564.png",
     "static/media/logo (2).png": "/artloopCreation/static/media/logo (2).b7c983fa6523f866b1c5.png",
     "index.html": "/artloopCreation/index.html",
-    "main.c841e5fb.css.map": "/artloopCreation/static/css/main.c841e5fb.css.map",
-    "main.8ff3c624.js.map": "/artloopCreation/static/js/main.8ff3c624.js.map"
+    "main.799c9d8f.css.map": "/artloopCreation/static/css/main.799c9d8f.css.map",
+    "main.c3e22392.js.map": "/artloopCreation/static/js/main.c3e22392.js.map"
   },
   "entrypoints": [
-    "static/css/main.c841e5fb.css",
-    "static/js/main.8ff3c624.js"
+    "static/css/main.799c9d8f.css",
+    "static/js/main.c3e22392.js"
   ]
 }
